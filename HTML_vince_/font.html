@@ -1,0 +1,139 @@
+<html>
+<head>
+    <title>Sign Up</title>
+    <style>
+        body {
+            background-color: rgb(226, 28, 134);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        form {
+            text-align: center;
+            background-color: hwb(0 100% 0% / 0.686);
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgb(254, 254, 254);
+            max-width: 300px;
+            width: 100%;
+        }
+
+        h1 {
+            margin-bottom: 35px;
+            font-size: 24px;
+        }
+
+        label {
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 10px;
+            text-align: left;
+        }
+
+        input {
+            font-size: 16px;
+            padding: 5px;
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 16px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .form-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .form-row label {
+            flex: 1;
+            margin-right: 10px;
+        }
+
+        .form-row input {
+            flex: 1;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" action="LOGIN.html">
+        <h1>Sign Up</h1>
+        <div class="form-row">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+        </div>
+        <div class="form-row">
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+        </div>
+        <div class="form-row">
+            <label for="middleInitial">Middle Initial:</label>
+            <input type="text" id="middleInitial" name="middleInitial" placeholder="Middle Initial" maxlength="1" required>
+        </div>
+        <div class="form-row">
+            <label for="birthdate">Birthdate:</label>
+            <input type="date" id="birthdate" name="birthdate" required>
+        </div>
+        <div class="form-row">
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+        </div>
+        <div class="form-row">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Email Address" required>
+        </div>
+        <div class="form-row">
+            <label for="contactNumber">Contact Number:</label>
+            <input type="tel" id="contactNumber" name="contactNumber" placeholder="Contact Number" required>
+        </div>
+        <div class="form-row">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Username" required>
+        </div>
+        <div class="form-row">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+        </div>
+        <div class="form-row">
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password" required>
+        </div>
+        <input type="submit" value="Submit">
+        <p>Already have an account? <a href="LOGIN.html">Log in</a></p>
+    </form>
+</body>
+</html>

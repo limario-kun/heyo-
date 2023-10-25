@@ -1,0 +1,78 @@
+body {
+    background-color: #41b3a3;
+    text-align: center;
+  }
+  
+h1 {
+    color: White;
+    font-size: 60px;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+  
+p {
+    color: black;
+    text-align: center;
+    font-family: "Tw Cen MT";
+    font-size: 35px;
+    padding: 5%;
+}
+
+h2 {
+    color: White;
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: -100px;
+}
+
+ol {
+    padding: 25px;
+    border-radius: 20px;
+    background-color: #41b3a3;
+    opacity: 1;
+    margin-top: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    justify-content: space-between;
+    text-emphasis-color: #4682b4;
+}
+
+h3 {
+    color: White;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: -100px;
+}
+
+h4 {
+    color: White;
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5%;
+    margin-top: -60px;
+    margin-bottom: -60px;
+}
+
+hr {
+    margin-top: -70px;
+}
+
+label {
+    color: #D9D9D9;
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input[type="submit"] {
+    width: 200px;
+    margin: 10px;
+    font-size: large;
+}
